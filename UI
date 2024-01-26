@@ -129,12 +129,12 @@ function DiscordLib:Window(text)
 	TopFrame.Position = UDim2.new(-0.000658480625, 0, 0, 0)
 	TopFrame.Size = UDim2.new(0, 681, 0, 22)
 
-	TopFrameHolder.Name = "CloseIcon"
+	TopFrameHolder.Name = "TopFrameHolder"
 	TopFrameHolder.Parent = TopFrame
 	TopFrameHolder.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	TopFrameHolder.BackgroundTransparency = 1.000
-	TopFrameHolder.Position = UDim2.new(0.189182192, 0, 0.128935531, 0)
-	TopFrameHolder.Size = UDim2.new(0, 17, 0, 17)
+	TopFrameHolder.Position = UDim2.new(-0.000658480625, 0, 0, 0)
+	TopFrameHolder.Size = UDim2.new(0, 681, 0, 22)
 	TopFrameHolder.Image = "http://www.roblox.com/asset/?id=13612116180"
 	TopFrameHolder.ImageColor3 = Color3.fromRGB(220, 221, 222)
 
