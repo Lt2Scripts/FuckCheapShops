@@ -110,7 +110,7 @@ function DiscordLib:Window(text)
 	local ServersHold = Instance.new("ScrollingFrame")
 	local ServersHoldLayout = Instance.new("UIListLayout")
 	local ServersHoldPadding = Instance.new("UIPadding")
-	local TopFrameHolder = Instance.new("ImageLabel")
+	local TopFrameHolder = Instance.new("Frame")
 
 	MainFrame.Name = "MainFrame"
 	MainFrame.Parent = Discord
@@ -128,15 +128,14 @@ function DiscordLib:Window(text)
 	TopFrame.BorderSizePixel = 0
 	TopFrame.Position = UDim2.new(-0.000658480625, 0, 0, 0)
 	TopFrame.Size = UDim2.new(0, 681, 0, 22)
-
+	
 	TopFrameHolder.Name = "TopFrameHolder"
 	TopFrameHolder.Parent = TopFrame
-	TopFrameHolder.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TopFrameHolder.BackgroundColor3 = Color3.fromRGB(32, 34, 37)
 	TopFrameHolder.BackgroundTransparency = 1.000
+	TopFrameHolder.BorderSizePixel = 0
 	TopFrameHolder.Position = UDim2.new(-0.000658480625, 0, 0, 0)
 	TopFrameHolder.Size = UDim2.new(0, 681, 0, 22)
-	TopFrameHolder.Image = "http://www.roblox.com/asset/?id=13612116180"
-	TopFrameHolder.ImageColor3 = Color3.fromRGB(220, 221, 222)
 
 	Title.Name = "Title"
 	Title.Parent = TopFrame
@@ -1834,11 +1833,12 @@ function DiscordLib:Window(text)
 
 		ChannelContentFrame.Name = "ChannelContentFrame"
 		ChannelContentFrame.Parent = ServerFrame
-		ChannelContentFrame.BackgroundColor3 = Color3.fromRGB(54, 57, 63)
-		ChannelContentFrame.BorderSizePixel = 0
-		ChannelContentFrame.ClipsDescendants = true
+		ChannelContentFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ChannelContentFrame.BackgroundTransparency = 1.000
 		ChannelContentFrame.Position = UDim2.new(0.294561088, 0, 0.106338218, 0)
 		ChannelContentFrame.Size = UDim2.new(0, 429, 0, 333)
+		ChannelContentFrame.Image = "http://www.roblox.com/asset/?id=13612116149"
+		ChannelContentFrame.ImageColor3 = Color3.fromRGB(220, 221, 222)
 
 		GlowChannel.Name = "GlowChannel"
 		GlowChannel.Parent = ChannelContentFrame
