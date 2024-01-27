@@ -1802,6 +1802,7 @@ function DiscordLib:Window(text)
 		ChannelTitleFrame.Name = "ChannelTitleFrame"
 		ChannelTitleFrame.Parent = ServerFrame
 		ChannelTitleFrame.BackgroundColor3 = Color3.fromRGB(54, 57, 63)
+		ChannelTitleFrame.BackgroundTransparency = 1
 		ChannelTitleFrame.BorderSizePixel = 0
 		ChannelTitleFrame.Position = UDim2.new(0.294561088, 0, -0.000900391256, 0)
 		ChannelTitleFrame.Size = UDim2.new(0, 429, 0, 40)
